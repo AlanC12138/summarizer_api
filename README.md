@@ -149,8 +149,3 @@ pytest -q src/nlp/summarizer/tests/test_smoke.py
 ## License
 
 MIT
-
-```
-
-If you want, I’ll draft `model.py`, `api.py`, `requirements.txt`, and a minimal `Dockerfile` next so you can commit and run immediately.
-```
