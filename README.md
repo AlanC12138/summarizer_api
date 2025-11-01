@@ -1,5 +1,3 @@
-Here’s a ready-to-paste `README.md` for `src/nlp/summarizer/`.
-
 ```markdown
 # AI Document Summarizer
 
