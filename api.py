@@ -2,8 +2,14 @@ import os
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from .model import Summarizer, SummaryOut
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(title="AI Document Summarizer", version="0.1.0")
+app.mount(
+    "/ui",
+    StaticFiles(directory="src/nlp/summarizer/ui", html=True),
+    name="ui",
+)
 
 # single global model instance
 _sm = Summarizer(
