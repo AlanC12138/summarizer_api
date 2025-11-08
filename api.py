@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from .model import Summarizer, SummaryOut
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import RedirectResponse
+from pathlib import Path
 
 app = FastAPI(title="AI Document Summarizer", version="0.1.0")
 # anchor the UI directory to this file's folder to avoid CWD issues
