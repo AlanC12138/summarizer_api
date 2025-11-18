@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode / Caches
+*.cache
+*.log
+*.pot
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+coverage/
+.coverage
+
+# Build
+build/
+dist/
+*.egg
+*.egg-info/
+
+# Jupyter / Misc
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.sock
+
+# FastAPI / Uvicorn
+*.sqlite
+*.db.sqlite
