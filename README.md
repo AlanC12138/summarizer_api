@@ -146,6 +146,3 @@ pytest -q src/nlp/summarizer/tests/test_smoke.py
 * Quantization (bitsandbytes / torch.compile)
 * Simple web UI (FastAPI + HTML)
 
-## License
-
-MIT
